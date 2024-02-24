@@ -10,7 +10,7 @@ steps:
     publishWebProjects: true
 - task: AzureWebApp@1
   inputs:
-    azureSubscription: 'Free Trial'
+    azureSubscription: '5308ea2a-62cf-41f4-876c-c89dde6278ce'
     appType: 'webAppLinux'
     appName: 'NEW-calculator'
     package: '$(System.DefaultWorkingDirectory)/**/*.zip'
